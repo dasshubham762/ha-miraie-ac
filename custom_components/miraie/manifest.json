@@ -2,7 +2,7 @@
   "domain": "miraie",
   "name": "MirAIe",
   "config_flow": true,
-  "documentation": "https://www.home-assistant.io/integrations/miraie",
+  "documentation": "https://github.com/dasshubham762/ha-miraie-ac",
   "requirements": [
     "miraie-ac==1.0.3",
     "asyncio>=3.4.3",
