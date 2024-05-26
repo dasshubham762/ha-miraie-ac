@@ -1,16 +1,16 @@
 """Config flow for mirAIe integration."""
+
 from __future__ import annotations
 
 import logging
 from typing import Any
 
-from miraie_ac import MirAIeHub
 import voluptuous as vol
-
 from homeassistant import config_entries
 from homeassistant.core import HomeAssistant
 from homeassistant.data_entry_flow import FlowResult
 from homeassistant.exceptions import HomeAssistantError
+from miraie_ac import MirAIeHub
 
 from .const import DOMAIN
 

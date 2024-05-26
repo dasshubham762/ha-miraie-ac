@@ -3,9 +3,9 @@
 DOMAIN = "miraie"
 
 # Possible swing state
-SWING_ON = "0"
-SWING_ONE = "1"
-SWING_TWO = "2"
-SWING_THREE = "3"
-SWING_FOUR = "4"
-SWING_FIVE = "5"
+SWING_ON = "on"
+SWING_TOP = "top"
+SWING_UPPER_MIDDLE = "upper_middle"
+SWING_MIDDLE = "middle"
+SWING_LOWER_MIDDLE = "lower_middle"
+SWING_BOTTOM = "bottom"

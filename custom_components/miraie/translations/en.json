@@ -1,21 +1,44 @@
 {
-    "config": {
-        "abort": {
-            "already_configured": "Device is already configured"
-        },
-        "error": {
-            "cannot_connect": "Failed to connect",
-            "invalid_auth": "Invalid authentication",
-            "unknown": "Unexpected error"
-        },
-        "step": {
-            "user": {
-                "data": {
-                    "host": "Host",
-                    "password": "Password",
-                    "username": "Username"
-                }
-            }
+  "config": {
+    "abort": {
+      "already_configured": "Device is already configured"
+    },
+    "error": {
+      "cannot_connect": "Failed to connect",
+      "invalid_auth": "Invalid authentication",
+      "unknown": "Unexpected error"
+    },
+    "step": {
+      "user": {
+        "data": {
+          "host": "Host",
+          "password": "Password",
+          "username": "Username"
         }
+      }
     }
+  },
+  "entity": {
+    "climate": {
+      "miraie_climate": {
+        "state_attributes": {
+          "fan_mode": {
+            "state": {
+              "quiet": "Quiet"
+            }
+          },
+          "swing_mode": {
+            "state": {
+              "auto": "Auto",
+              "top": "Top",
+              "upper_middle": "Upper middle",
+              "middle": "Middle",
+              "lower_middle": "Lower middle",
+              "bottom": "Bottom"
+            }
+          }
+        }
+      }
+    }
+  }
 }

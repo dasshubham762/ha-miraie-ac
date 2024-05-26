@@ -1,0 +1,15 @@
+{
+  "entity": {
+    "climate": {
+      "miraie_climate": {
+        "state_attributes": {
+          "fan_mode": {
+            "state": {
+              "quiet": "mdi:speedometer-slow"
+            }
+          }
+        }
+      }
+    }
+  }
+}

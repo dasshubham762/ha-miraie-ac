@@ -17,5 +17,28 @@
     "abort": {
       "already_configured": "[%key:common::config_flow::abort::already_configured_device%]"
     }
+  },
+  "entity": {
+    "climate": {
+      "miraie_climate": {
+        "state_attributes": {
+          "fan_mode": {
+            "state": {
+              "quiet": "Quiet"
+            }
+          },
+          "swing_mode": {
+            "state": {
+              "on": "On",
+              "top": "Top",
+              "upper_middle": "Upper middle",
+              "middle": "Middle",
+              "lower_middle": "Lower middle",
+              "bottom": "Bottom"
+            }
+          }
+        }
+      }
+    }
   }
 }
