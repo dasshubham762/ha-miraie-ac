@@ -5,6 +5,7 @@
 
 ## Tested on
 - **[Panasonic 1.5 Ton 3 Star Wi-Fi Inverter Smart Split AC](https://store.in.panasonic.com/air-conditioners/split-ac/cs-cu-su18zkywt.html)**
+- **[Panasonic 1.5 Ton 4 Star Wi-Fi Inverter Smart Split AC](https://store.in.panasonic.com/air-conditioners/split-ac/cs-cu-nu18zky4w.html)**
 
 ## Installation
 
