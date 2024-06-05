@@ -61,7 +61,7 @@ class MirAIeClimate(MirAIeEntity, ClimateEntity):
             HVACMode.DRY,
             HVACMode.FAN_ONLY,
         ]
-        self._attr_preset_modes = list(PresetMode)
+        self._attr_preset_modes = [pm.value for pm in PresetMode]
         self._attr_fan_mode = FanMode.AUTO.value
         self._attr_fan_modes = [
             FanMode.AUTO.value,
@@ -190,6 +190,6 @@ class MirAIeClimate(MirAIeEntity, ClimateEntity):
         ]
         await self.device.set_swing_mode(SwingMode(swing_modes.index(swing_mode)))
 
-    async def async_set_preset_mode(self, preset_mode: PresetMode) -> None:
+    async def async_set_preset_mode(self, preset_mode: str) -> None:
         """Set preset mode."""
-        await self.device.set_preset_mode(preset_mode)
+        await self.device.set_preset_mode(PresetMode(preset_mode))
